@@ -1,0 +1,54 @@
+[
+  {
+    "Source": "192.168.65.1:39998",
+    "Destination": "localhost",
+    "RequestBody": "{}",
+    "ResponseBody": "{\"result\": {\"status\": \"healthy\", \"timestamp\": \"2026-03-18T00:00:00.000Z\", \"uptime\": 1234.5, \"database\": {\"connected\": true, \"latencyMs\": 5}}}",
+    "RequestHeaders": {
+      "Content-Type": [
+        "application/json"
+      ],
+      "X-Parse-Application-Id": [
+        "myAppId"
+      ]
+    },
+    "ResponseHeaders": {
+      "Content-Type": [
+        "application/json"
+      ]
+    },
+    "Method": "POST",
+    "Path": "/parse/functions/health",
+    "QueryParams": {},
+    "StatusCode": 200,
+    "Port": 1337,
+    "Timestamp": "2026-03-18T01:34:55.207Z",
+    "Scheme": "http"
+  },
+  {
+    "Source": "192.168.65.1:39998",
+    "Destination": "localhost",
+    "RequestBody": "{\"probe\": \"connectivity-check\", \"ts\": \"2026-03-18T00:00:00.000Z\"}",
+    "ResponseBody": "{\"objectId\": \"abc123XYZ\", \"createdAt\": \"2026-03-18T00:00:00.000Z\"}",
+    "RequestHeaders": {
+      "Content-Type": [
+        "application/json"
+      ],
+      "X-Parse-Application-Id": [
+        "myAppId"
+      ]
+    },
+    "ResponseHeaders": {
+      "Content-Type": [
+        "application/json"
+      ]
+    },
+    "Method": "POST",
+    "Path": "/parse/classes/HealthProbe",
+    "QueryParams": {},
+    "StatusCode": 201,
+    "Port": 1337,
+    "Timestamp": "2026-03-18T01:35:03.011Z",
+    "Scheme": "http"
+  }
+]
