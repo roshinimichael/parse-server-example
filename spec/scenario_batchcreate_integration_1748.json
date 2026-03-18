@@ -1,0 +1,54 @@
+[
+  {
+    "Source": "192.168.65.1:39998",
+    "Destination": "localhost",
+    "RequestBody": "{\"className\": \"TestItem\", \"objects\": [{\"name\": \"Item One\", \"value\": 42}, {\"name\": \"Item Two\", \"value\": 99}]}",
+    "ResponseBody": "{\"result\": {\"created\": 2, \"ids\": [\"abc123def456\", \"ghi789jkl012\"]}}",
+    "RequestHeaders": {
+      "Content-Type": [
+        "application/json"
+      ],
+      "X-Parse-Application-Id": [
+        "SKYRAMP_PLACEHOLDER_TOKEN"
+      ]
+    },
+    "ResponseHeaders": {
+      "Content-Type": [
+        "application/json"
+      ]
+    },
+    "Method": "POST",
+    "Path": "/parse/functions/batchCreate",
+    "QueryParams": {},
+    "StatusCode": 200,
+    "Port": 1337,
+    "Timestamp": "2026-03-18T04:23:54.967Z",
+    "Scheme": "http"
+  },
+  {
+    "Source": "192.168.65.1:39998",
+    "Destination": "localhost",
+    "RequestBody": "",
+    "ResponseBody": "{\"objectId\": \"abc123def456\", \"name\": \"Item One\", \"value\": 42, \"createdAt\": \"2026-03-18T00:00:00.000Z\", \"updatedAt\": \"2026-03-18T00:00:00.000Z\"}",
+    "RequestHeaders": {
+      "Content-Type": [
+        "application/json"
+      ],
+      "X-Parse-Application-Id": [
+        "SKYRAMP_PLACEHOLDER_TOKEN"
+      ]
+    },
+    "ResponseHeaders": {
+      "Content-Type": [
+        "application/json"
+      ]
+    },
+    "Method": "GET",
+    "Path": "/parse/classes/TestItem/abc123def456",
+    "QueryParams": {},
+    "StatusCode": 200,
+    "Port": 1337,
+    "Timestamp": "2026-03-18T04:24:00.034Z",
+    "Scheme": "http"
+  }
+]
