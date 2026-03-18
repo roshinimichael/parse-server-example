@@ -1,0 +1,54 @@
+[
+  {
+    "Source": "192.168.65.1:39998",
+    "Destination": "localhost",
+    "RequestBody": "{\"className\": \"GameScore\", \"objects\": [{\"score\": 42, \"playerName\": \"Alice\"}, {\"score\": 99, \"playerName\": \"Bob\"}]}",
+    "ResponseBody": "{\"result\": {\"created\": 2, \"ids\": [\"abc123\", \"def456\"]}}",
+    "RequestHeaders": {
+      "Content-Type": [
+        "application/json"
+      ],
+      "X-Parse-Session-Token": [
+        "r:5d4b827449d2f40499886ace35b9a1b2"
+      ]
+    },
+    "ResponseHeaders": {
+      "Content-Type": [
+        "application/json"
+      ]
+    },
+    "Method": "POST",
+    "Path": "/parse/functions/batchCreate",
+    "QueryParams": {},
+    "StatusCode": 200,
+    "Port": 1337,
+    "Timestamp": "2026-03-18T01:42:30.809Z",
+    "Scheme": "http"
+  },
+  {
+    "Source": "192.168.65.1:39998",
+    "Destination": "localhost",
+    "RequestBody": "",
+    "ResponseBody": "{\"objectId\": \"abc123\", \"score\": 42, \"playerName\": \"Alice\", \"createdAt\": \"2026-03-18T00:00:00.000Z\", \"updatedAt\": \"2026-03-18T00:00:00.000Z\"}",
+    "RequestHeaders": {
+      "Content-Type": [
+        "application/json"
+      ],
+      "X-Parse-Session-Token": [
+        "r:5d4b827449d2f40499886ace35b9a1b2"
+      ]
+    },
+    "ResponseHeaders": {
+      "Content-Type": [
+        "application/json"
+      ]
+    },
+    "Method": "GET",
+    "Path": "/parse/classes/GameScore/abc123",
+    "QueryParams": {},
+    "StatusCode": 200,
+    "Port": 1337,
+    "Timestamp": "2026-03-18T01:42:35.575Z",
+    "Scheme": "http"
+  }
+]
