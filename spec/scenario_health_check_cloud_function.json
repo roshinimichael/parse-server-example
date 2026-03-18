@@ -1,0 +1,54 @@
+[
+  {
+    "Source": "192.168.65.1:39998",
+    "Destination": "localhost",
+    "RequestBody": "{}",
+    "ResponseBody": "{\"result\": {\"status\": \"healthy\", \"timestamp\": \"2024-01-01T00:00:00.000Z\", \"uptime\": 123.456, \"database\": {\"connected\": true, \"latencyMs\": 50}}}",
+    "RequestHeaders": {
+      "Content-Type": [
+        "application/json"
+      ],
+      "X-Parse-Application-Id": [
+        "myAppId"
+      ]
+    },
+    "ResponseHeaders": {
+      "Content-Type": [
+        "application/json"
+      ]
+    },
+    "Method": "POST",
+    "Path": "/parse/functions/health",
+    "QueryParams": {},
+    "StatusCode": 200,
+    "Port": 1337,
+    "Timestamp": "2026-03-18T00:58:01.524Z",
+    "Scheme": "http"
+  },
+  {
+    "Source": "192.168.65.1:39998",
+    "Destination": "localhost",
+    "RequestBody": "{}",
+    "ResponseBody": "{\"result\": {\"status\": \"healthy\", \"timestamp\": \"2024-01-01T00:00:00.000Z\", \"uptime\": 123.456, \"database\": {\"connected\": true, \"latencyMs\": 50}}}",
+    "RequestHeaders": {
+      "Content-Type": [
+        "application/json"
+      ],
+      "X-Parse-Application-Id": [
+        "TestBotAppId"
+      ]
+    },
+    "ResponseHeaders": {
+      "Content-Type": [
+        "application/json"
+      ]
+    },
+    "Method": "POST",
+    "Path": "/parse/functions/health",
+    "QueryParams": {},
+    "StatusCode": 200,
+    "Port": 1337,
+    "Timestamp": "2026-03-18T01:00:52.315Z",
+    "Scheme": "http"
+  }
+]
