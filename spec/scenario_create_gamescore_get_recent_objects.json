@@ -1,0 +1,54 @@
+[
+  {
+    "Source": "192.168.65.1:39998",
+    "Destination": "localhost",
+    "RequestBody": "{\"score\": 9500, \"playerName\": \"TestBot Player\"}",
+    "ResponseBody": "{\"objectId\": \"abc123xyz\", \"createdAt\": \"2026-03-24T22:00:00.000Z\"}",
+    "RequestHeaders": {
+      "Content-Type": [
+        "application/json"
+      ],
+      "X-Parse-Master-Key": [
+        "SKYRAMP_PLACEHOLDER_TOKEN"
+      ]
+    },
+    "ResponseHeaders": {
+      "Content-Type": [
+        "application/json"
+      ]
+    },
+    "Method": "POST",
+    "Path": "/parse/classes/GameScore",
+    "QueryParams": {},
+    "StatusCode": 201,
+    "Port": 1337,
+    "Timestamp": "2026-03-24T22:32:10.526Z",
+    "Scheme": "http"
+  },
+  {
+    "Source": "192.168.65.1:39998",
+    "Destination": "localhost",
+    "RequestBody": "{\"className\": \"GameScore\", \"limit\": 5}",
+    "ResponseBody": "{\"result\": [{\"id\": \"abc123xyz\", \"score\": 9500, \"playerName\": \"TestBot Player\", \"createdAt\": \"2026-03-24T22:00:00.000Z\"}]}",
+    "RequestHeaders": {
+      "Content-Type": [
+        "application/json"
+      ],
+      "X-Parse-Master-Key": [
+        "SKYRAMP_PLACEHOLDER_TOKEN"
+      ]
+    },
+    "ResponseHeaders": {
+      "Content-Type": [
+        "application/json"
+      ]
+    },
+    "Method": "POST",
+    "Path": "/parse/functions/getRecentObjects",
+    "QueryParams": {},
+    "StatusCode": 200,
+    "Port": 1337,
+    "Timestamp": "2026-03-24T22:32:15.082Z",
+    "Scheme": "http"
+  }
+]
